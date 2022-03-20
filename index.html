@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+
+<header>
+<h1 id="title">
+ Car purchase
+</h1>
+  </header>
+  
+  <body>
+<p id="description">
+  Please fill up the detail
+</p>
+
+<form id="survey-form">
+  <div class ="input-headings">
+  <label for="name" id="name-label">Name </label>
+  <input id="name" type="text" name="name" placeholder="Shakil mahmud" class="form-inputs" requied> </input>
+<br>
+<br>
+  <label for="number" id="email-label">Age </label>
+  <input id="number" type="number" name="number" placeholder="22" min="10" max="50"class="form-inputs" requied> </input>
+<br>
+<br>
+  <label for="email" id="number-label">Email </label>
+  <input id="email" type="text" name="email" placeholder="Shakil69@gmail.com" class="form-inputs" requied> </input>
+<br>
+  <br>
+<label for="dropdown" id="model">Select model</label>
+<select id="dropdown" class="form-inputs">
+  <option value="Model_S">Model S<option>
+  <option value="Model_H">Model H<option>
+  <option value="Model_A">Model A<option>
+  </select>
+<br>
+</br>
+
+<label for="model_color" id="model_color"><b>Model color:</b> </label>
+<input id="model_color" type="radio" id="black" name="color" value="black">
+<label for="model_color">Black</label>
+
+<input id="model_color" type="radio" id="red" name="color" value="red">
+<label for="model_color">Red</label>
+
+<input id="model_color" type="radio" id="blue" name="color" value="blue">
+<label for="model_color">Blue</label>
+
+<br>
+<br>
+<label for="features"><b> Add freatures:</b></label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value="autopilot" >
+<label for="checkbox">self-driving(Autopilot)-$12000 </label>
+<br>
+
+<input id="checkbox" type="checkbox" name="features" value="dual_motor" >
+<label for="checkbox">All wheel drive(dual_motor)-$10000 </label>
+<br>
+<br>
+<label id="textarea">Additional comment</label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+<br>
+
+
+<input id="sumbit" type="submit" value="Place order" class="submit-button">
+</div>
+</form>
+</body>
+</html>
